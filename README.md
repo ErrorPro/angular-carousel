@@ -5,6 +5,7 @@ version 0.11.1.
 
 ## Build & development
 
+    1. npm-install
 Run `grunt` for building and `grunt serve` for preview.
 
 ## Testing
