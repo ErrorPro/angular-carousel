@@ -5,8 +5,11 @@ version 0.11.1.
 
 ## Build & development
 
-    1. npm-install
-Run `grunt` for building and `grunt serve` for preview.
+1. npm install
+2. bower install 
+3. grunt
+4. grunt serve
+
 
 ## Testing
 
