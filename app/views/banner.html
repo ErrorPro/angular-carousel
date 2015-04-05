@@ -1,0 +1,15 @@
+<div class="banner">
+    <div class="right-menu">
+        <ul>
+            <li ng-repeat="el in info" ng-class="{active: el.active}" ng-mouseover="active(el)" ng-mouseout="active(el,false)">
+                <dl>
+                    <dt>{{el.head}}</dt>
+                    <dd>{{el.title}}</dd>
+                </dl>
+            </li>
+        </ul>
+    </div>
+    <div class="background" ng-repeat="el in info" ng-style="{'background-image': 'url('+el.url+')'}" ng-class="{'active': el.active, 'not-active': !el.active}">
+    </div>
+</div>
+
